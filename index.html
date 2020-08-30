@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CHAT UI</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="a">
+	<h2 class="heading">Chat UI</h2>
+</div>
+	
+<div class="container">
+	<div class="row no-gutters">
+
+
+	  <div class="col-md-4 border-right">
+		<div class="settings-tray">
+		  		<img class="profile-image md-3" src="./pics/mrmansteam.png" alt="Profile img">
+		   		<a class="text-white" style="margin-left: 10px;">Your Status</a>
+		  <span class="settings-tray--right">
+			<i onclick="myFunction2()" class="dropbtn dropdown material-icons addMore" title="Menu">menu</i>
+			<div id="myDropdown2" class="dropdown-content">
+			  <a href="#Option 1" class="text-muted small">Option 1</a>
+			  <a href="#Option 2" class="text-muted small">Option 2</a>
+			  <a href="#Option 3" class="text-muted small">Option 3</a>
+			</div>
+		  </span>
+		</div>
+		<div class="search-box">
+		  <div class="input-wrapper">
+			<i class="material-icons" style="cursor: pointer;">search</i>
+			<input placeholder=" Search" type="text">
+		  </div>
+		</div>
+
+		<div class="scr">
+		<div class="friend-drawer friend-drawer--onhover">
+		  <img class="profile-image" src="./pics/kaneki.png" alt="">
+		  <div class="text">
+			<h6>Guy</h6>
+			<p class="text-muted">Guy's Status</p>
+		  </div>
+		  <span class="time text-muted small">10:41</span>
+		</div>
+		<hr>
+		<div class="friend-drawer friend-drawer--onhover">
+		  <img class="profile-image" src="./pics/luffy.jpg" alt="">
+		  <div class="text">
+			<h6>Nat</h6>
+			<p class="text-muted">Nat's Status</p>
+		  </div>
+		  <span class="time text-muted small">23:40</span>
+		</div>
+		<hr>
+		<div class="friend-drawer friend-drawer--onhover ">
+		  <img class="profile-image" src="./pics/opm.png" alt="">
+		  <div class="text">
+			<h6>Garry</h6>
+			<p class="text-muted">Garry's Status</p>
+		  </div>
+		  <span class="time text-muted small">12:34</span>
+		</div>
+		<hr>
+		<div class="friend-drawer friend-drawer--onhover">
+		  <img class="profile-image" src="./pics/shaktimaan.jpg" alt="">
+		  <div class="text">
+			<h6>Tim</h6>
+			<p class="text-muted">Tim's Status</p>
+		  </div>
+		  <span class="time text-muted small">23:12</span>
+		</div>
+		<hr>
+		<div class="friend-drawer friend-drawer--onhover">
+		  <img class="profile-image" src="./pics/unnamed.png" alt="">
+		  <div class="text">
+			<h6>Larry</h6>
+			<p class="text-muted">Larry's Status</p>
+		  </div>
+		  <span class="time text-muted small">10:11</span>
+		</div>
+		<hr>
+		<div class="friend-drawer friend-drawer--onhover">
+		  <img class="profile-image" src="./pics/batman.jpg" alt="">
+		  <div class="text">
+			<h6>Kim</h6>
+			<p class="text-muted">Kim's Status</p>
+		  </div>
+		  <span class="time text-muted small">11:00</span>
+		</div>
+		</div>
+	  </div>
+
+
+	  <div class="col-md-8">
+		<div class="settings-tray">
+			<div class="friend-drawer no-gutters friend-drawer--grey">
+			  <img class="profile-image" src="./pics/kaneki.png" alt="Profile">
+			  <div class="text">
+			  <h6>Guy</h6>
+			  <p class="text-white">Guy's Status</p>
+			  </div>
+			  <span class="settings-tray--right">
+			    <i class="material-icons"></i>
+			    <i class="material-icons addMore"  title="Refresh">cached</i>
+			    <i onclick="myFunction()" class="dropbtn dropdown material-icons sddMore" title="More Options">menu</i>
+			    <div id="myDropdown" class="dropdown-content">
+				<a href="#Option 1" class="text-muted small">Option 1</a>
+				<a href="#Option 2" class="text-muted small">Option 2</a>
+				<a href="#Option 3" class="text-muted small">Option 3</a>
+				<a href="#Option 4" class="text-muted small">Option 4</a>
+			  </div>
+			  </span>		
+			</div>
+		</div>
+		
+	<div id="scrollbottom" class="chat-panel bgchat scr2">	  
+		<div class="wid">
+		  <div class="row no-gutters">
+			<div class="col-md-3">
+			  <div class="chat-bubble chat-bubble--left">
+				What am i?
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3 offset-md-9">
+			  <div class="chat-bubble chat-bubble--right">
+				Who are you?
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3 offset-md-9">
+			  <div class="chat-bubble chat-bubble--right">
+				we are reaching for the stars
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3">
+			  <div class="chat-bubble chat-bubble--left">
+				thats the part you always show
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3">
+			  <div class="chat-bubble chat-bubble--left">
+				you are so curious
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3">
+			  <div class="chat-bubble chat-bubble--left">
+				maybe we should take it slow
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3 offset-md-9">
+			  <div class="chat-bubble chat-bubble--right">
+				drop the bass
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3 offset-md-9">
+			  <div class="chat-bubble chat-bubble--right">
+				they had us in first halfthey had us in first halfthey had us in first half
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3 offset-md-9">
+			  <div class="chat-bubble chat-bubble--right">
+				not gonna lie
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3">
+			  <div class="chat-bubble chat-bubble--left">
+				ok
+			  </div>
+			</div>
+		  </div>
+		  <div class="row no-gutters">
+			<div class="col-md-3">
+			  <div class="chat-bubble chat-bubble--left">
+				bye
+			  </div>
+			</div>
+		  </div>
+
+		  <div  id="di" class="row no-gutters" style="display: none;">
+			<div class="col-md-3 offset-md-9">
+			  <div class="chat-bubble chat-bubble--right">
+				<p id='dis'></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<form name='myform' id="nfor">
+			<div class="row">
+			<div class="col-12">
+			  <div class="chat-box-tray">
+				<i class="material-icons addMore" title="Emoji" style="cursor: pointer;">sentiment_very_satisfied</i>
+				<i class="material-icons addMore" title="Voice Message" style="cursor: pointer;">mic</i>
+				<input id="ms" type="text" name="name" placeholder=" Type a message">
+				<i class="material-icons addMore" title="Attachment" style="cursor: pointer;">attachment</i>
+				<i id="hid" class="material-icons addMore" title="Send Message" style="cursor: pointer;" onclick="send();showmg();res();return false">send</i>
+			</div>
+			</div>
+		  </div>
+		</form>
+		</div>
+
+	  </div>
+	</div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
