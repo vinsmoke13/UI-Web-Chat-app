@@ -36,8 +36,7 @@ window.onclick = function(event) {
   }
 }
 
-function send()
-{
+function send() {
    document.getElementById('dis').innerHTML=document.myform.name.value;
 }
 
@@ -46,6 +45,5 @@ function showmg() {
 }
 
 function res() { 
-  /*Put all the data posting code here*/ 
  document.getElementById("nfor").reset(); 
 } 
